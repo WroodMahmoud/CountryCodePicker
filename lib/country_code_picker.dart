@@ -225,9 +225,10 @@ class CountryCodePickerState extends State<CountryCodePicker> {
                           ? const EdgeInsets.only(right: 16.0, left: 8.0)
                           : const EdgeInsets.only(right: 16.0),
                       child: Icon(
-                        Icons.arrow_drop_down,
-                        color: Colors.grey,
-                        size: widget.flagWidth,
+                        Icons.keyboard_arrow_down_outlined,
+                      color: Colors.white,
+                        size: widget.flagWidth, weight: 0.8,
+             
                       )),
                 ),
             ],
